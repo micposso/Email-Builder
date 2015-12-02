@@ -1,0 +1,58 @@
+
+#mycont {
+	position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       margin: auto;
+	   width:550px;
+	   height:550px;
+	
+}
+
+.large-button {
+	width: 155px;
+	
+}
+
+.red {
+    background-color: #ff9900;
+}
+
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn {
+	text-align:left !important;	
+}
+	
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;	
+  min-height: 100%;
+  font-size: 100px;
+  text-align: left;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+
+.input-group {
+	margin: 20px 0px 0px 0px;	
+}
+
+
+
+
